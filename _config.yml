@@ -1,0 +1,21 @@
+# Site settings
+title: memorandums
+header-img: img/home-bg.png
+email: aya.fushimi@gmail.com
+copyright_name: ayafushimi
+description: > # this means to ignore newlines until "baseurl:"
+  notes for learning JavaScript and Ruby
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: 
+github_username:  ayafushimi
+learn_profile: ayafushimi
+email_username: aya.fushimi@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
