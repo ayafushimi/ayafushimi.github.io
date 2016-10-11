@@ -20,12 +20,12 @@ Terminal's shell: bash
 ## What is prompt?
 A prompt is text or symbols which is displayed in front of input area in terminal.
 
-![](https://www.evernote.com/shard/s51/sh/d7ac0445-c026-4426-94f8-01a31677c0ad/866b59398d31ffff/res/37f78276-cda6-4ef1-983e-b36d62c095ec/skitch.png)
+![](http://i.imgur.com/lHYZp1I.png)
 
 
 This article's goal is: 
 
-![](https://www.evernote.com/shard/s51/sh/917b9dc1-8266-4c1d-a8e0-25bf083a590c/e9d88254f3304d24/res/b4c7e807-1479-4616-817d-ae94f48d63c7/skitch.png)
+![](http://i.imgur.com/eLkJU5E.png)
 
 ## How to change text
 First, let's check what's the text now.
@@ -86,7 +86,7 @@ you can achieve this by inputting the line below.
 PS1='[\t] \u -- \W\n\\\[\]\\ ♥ '
 ```
 
-![](https://www.evernote.com/shard/s51/sh/41a76709-e3d6-448a-af8d-acf5e1dc1293/aeeb31ff487bc3e2/res/81d3daaf-30fa-4303-a8f4-f30a0a1ecdc4/skitch.png)
+![](http://i.imgur.com/RnqVefG.png)
 
 
 ## How to change color
@@ -99,7 +99,7 @@ Let's take a look at an example command to change text to underlined, cyan color
 PS1='\[\e[4;36;44m\]underlined cyan text on blue background\[\e[0m\] regular text'
 ```
 
-![](https://www.evernote.com/shard/s51/sh/77755b46-5030-4445-a174-62ff9070e592/bb1aeb2d0be3e942/res/067f4476-36f4-4004-973a-32ef50c432ad/skitch.png)
+![](http://i.imgur.com/2wVMWmc.png)
 
 The beginning of the command '\[\e[4;36;44m\]' means that the following text should be displayed in "underlined, cyan text color and blue background color". And the code '\[\e[0m\]' in front of the string 'regular text' means that the following text need not to be customized.
 
@@ -167,7 +167,7 @@ The third digit '44' is background color code:
 
 If you'd like prompt to be like the following,
 
-![](https://www.evernote.com/shard/s51/sh/1f06fdc1-c253-414f-b98b-deadecda3fb9/6aca6635e8739dbb/res/6ef56d24-6529-4c4a-b6a8-fa12f5d76c3a/skitch.png)
+![](http://i.imgur.com/7Ype7Sv.png)
 
 you can achieve this by inputting the line below.
 
@@ -196,7 +196,7 @@ This command opens vi editor.
 
 In the '.bashrc' file, add your 'PS1=...' line, and exit vi editor.
 
-![](https://www.evernote.com/shard/s51/sh/2be1ec8b-60fe-4fc7-bcef-2b229d5678b9/0207ee4901b1b730/res/361af2a4-c2f4-42cb-ac79-f34ed47d3c0f/skitch.png)
+![](http://i.imgur.com/HbpUcsJ.png)
 
 To adopt this change, input the following code.
 
@@ -205,7 +205,7 @@ source .bashrc
 ```
 
 Now, your prompt is saved! Next time you open Terminal, the prompt is displayed as you changed.
-![](https://www.evernote.com/shard/s51/sh/fd1ebc6c-877b-49a9-984c-607ff3348637/87d66a7d32ead383/res/84047ddc-b02a-4022-b7a9-d52d58c3b9ce/skitch.png)
+![](http://i.imgur.com/C1WQ1dQ.png)
 
 
 ## How to show GitHub branch
@@ -234,5 +234,5 @@ PS1='[\[\e[1;97;104m\]\t\[\e[0m\]] \[\e[0;31m\]$(git_branch)\[\e[0;32m\]\W\[\e[0
 
 Then, my Terminal is now what I want.
 
-![](https://www.evernote.com/shard/s51/sh/bc812d10-8074-4977-ac9e-9c3e064a93ab/f5db96d17baf8098/res/66f6f22d-0146-4551-bfce-354eaa59fa7d/skitch.png)
+![](http://i.imgur.com/zTUVzNY.png)
 
