@@ -1,14 +1,19 @@
 ---
 layout: post
 title:  "How to customize Terminal's prompt"
-date:   2016-10-11 21:33:30 +0000
+date:   2016-10-11 17:33:30 -0400
 ---
 
 In this article:
+
 * What is prompt?
+* 
 * How to change text
+* 
 * How to change color
+* 
 * How to save these changes
+* 
 * How to show GitHub branch
 
 
@@ -30,9 +35,11 @@ This article's goal is:
 First, let's check what's the text now.
 
 In Terminal, input "set" to display prompt setting.
+
 ```
 $ set
 ```
+
 In the response, there should be 'PS1='.
 
 ```
@@ -178,6 +185,7 @@ You can save the above settings in ".bashrc" file.
 If you haven't used this file, you need to create this.
 
 To open or create this file, input the code below.
+
 ```
 vi .bashrc
 ```
@@ -191,6 +199,7 @@ This command opens vi editor.
 > (in Japanese) http://net-newbie.com/linux/commands/vi.html
 
 In the '.bashrc' file, add your 'PS1=...' line, and exit vi editor.
+
 ![](https://www.evernote.com/shard/s51/sh/2be1ec8b-60fe-4fc7-bcef-2b229d5678b9/0207ee4901b1b730/res/361af2a4-c2f4-42cb-ac79-f34ed47d3c0f/skitch.png)
 
 To adopt this change, input the following code.
