@@ -7,13 +7,9 @@ date:   2016-10-11 17:33:30 -0400
 In this article:
 
 * What is prompt?
-* 
 * How to change text
-* 
 * How to change color
-* 
 * How to save these changes
-* 
 * How to show GitHub branch
 
 
