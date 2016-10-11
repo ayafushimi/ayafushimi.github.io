@@ -224,7 +224,7 @@ Adding this function to '.bashrc', you can use "$(git_branch)" in your PS1 to di
 
 
 To reach this article's goal, edit '.bashrc' like this:
-​
+
 ```
 git_branch() {
   echo $(git branch --no-color 2>/dev/null | sed -ne "s/^\* \(.*\)$/(\1)/p")
@@ -233,7 +233,6 @@ PS1='[\[\e[1;97;104m\]\t\[\e[0m\]] \[\e[0;31m\]$(git_branch)\[\e[0;32m\]\W\[\e[0
 ```
 
 Then, my Terminal is now what I want.
-​
+
 ![](https://www.evernote.com/shard/s51/sh/bc812d10-8074-4977-ac9e-9c3e064a93ab/f5db96d17baf8098/res/66f6f22d-0146-4551-bfce-354eaa59fa7d/skitch.png)
-​
 
