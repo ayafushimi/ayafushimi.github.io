@@ -10,6 +10,7 @@ date:   2016-10-27 21:00:14 +0000
 * Making CLI application
 * Scraping website
 * Making Ruby Gem
+ 
 
 ## Aim of this project
 I'd like to confirm the knowledge about Ruby what I've learned so far.
@@ -19,6 +20,7 @@ To be specific:
 *  How to build CLI
 *  How to scrape websites
 *  How to deal with RubyGems
+ 
 
 ## Goal of this project
 I'm going to make a RubyGem "Recently PS4 Games" which scrapes [this page](https://www.playstation.com/en-us/explore/games/ps4-games/) and displays informations about game.
@@ -141,7 +143,7 @@ end
 ```
 
 
-> > In this method, I use two gems.
+> In this method, I use two gems.
 > 
 > | Gem Name | Homepage |
 > | -------- | -------- |
@@ -150,6 +152,7 @@ end
 > 
 > 
 > And I refer to [this page](http://stackoverflow.com/questions/32379528/selenium-webdriver-and-phantomjs-on-openshift-ruby-error-unable-to-find-phan) to make this method.
+> 
 
 
 Then, I define a ```.scrape_game_list``` method using  this ```.get_dynamic_page_html``` method.
@@ -366,7 +369,7 @@ end
 
 Now, I have almost finished writing codes.
 
-### 6. Write code in lib/recently_ps4_game.rb
+### 6. Write a code in lib/recently_ps4_game.rb
 
 Let's move on to edit a ```lib/recently_ps4_game.rb``` file. I use several new gems in methods so I have to add ```require```s to this file.
 
@@ -445,7 +448,8 @@ File: recently_ps4_games-0.1.0.gem
 
 Now I get my gem "Recently PS4 Games" version 0.1.0. 
 
-> If I have to change the version, I can change it in ```lib/recently_ps4_games/version.rb``` file.
+> If I have to change the version, I can change it in a ```lib/recently_ps4_games/version.rb``` file.
+> 
 
 
 ### 9. publishing gem
