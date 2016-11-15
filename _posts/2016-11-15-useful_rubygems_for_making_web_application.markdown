@@ -14,6 +14,7 @@ date:   2016-11-15 15:25:36 -0500
 7. Sinatra
 
 -
+
 ## 1. Bundler
 [http://bundler.io/](http://bundler.io/)
 
@@ -171,6 +172,7 @@ more details:
 [http://api.rubyonrails.org/classes/ActiveRecord/Base.html](http://api.rubyonrails.org/classes/ActiveRecord/Base.html)
 
 -
+
 ## 4. Rake (Ruby Make)
 [http://rake.rubyforge.org/](http://rake.rubyforge.org/)
 
@@ -251,6 +253,7 @@ require 'sinatra/activerecord/rake'
 ```
 
 -
+
 ## 5. rack
 [https://rack.github.io/](https://rack.github.io/)
 
@@ -293,6 +296,7 @@ run HelloWorld.new
 ### 6.ctrl-C to finish rack
 
 -
+
 ## 6. shotgun
 [https://rubygems.org/gems/shotgun/versions/0.9.2](https://rubygems.org/gems/shotgun/versions/0.9.2)
 
@@ -334,6 +338,7 @@ run HelloWorld.new
 ### 6.ctrl-C to finish shotgun
 
 -
+
 ## 7. Sinatra
 [http://www.sinatrarb.com/intro.html](http://www.sinatrarb.com/intro.html)
 
