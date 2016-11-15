@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Useful RubyGems for making web application"
-date:   2016-11-15 20:25:36 +0000
+date:   2016-11-15 15:25:36 -0500
 ---
 
+## In this article:
 1. Bundler
 2. sqlite3
 3. ActiveRecord
@@ -12,8 +13,9 @@ date:   2016-11-15 20:25:36 +0000
 6. shotgun
 7. Sinatra
 
+
 ## 1. Bundler
-http://bundler.io/
+[http://bundler.io/](http://bundler.io/)
 
 ### what can do
 
@@ -48,9 +50,10 @@ gem 'sqlite3'
 
 #### 4.run  ```bundle install```
 
+-
 
 ## 2. sqlite3
-https://rubygems.org/gems/sqlite3/versions/1.3.11
+[https://rubygems.org/gems/sqlite3/versions/1.3.11](https://rubygems.org/gems/sqlite3/versions/1.3.11)
 
 ### what can do
 
@@ -89,7 +92,7 @@ db.execute(sql)
 
 
 > ### SQL statements
-> http://www.w3schools.com/sql/sql_syntax.asp\
+> [http://www.w3schools.com/sql/sql_syntax.asp\](http://www.w3schools.com/sql/sql_syntax.asp\)
 > 
 > * SELECT - extracts data from a database
 > * UPDATE - updates data in a database
@@ -99,9 +102,10 @@ db.execute(sql)
 > * ALTER TABLE - modifies a table
 > * DROP TABLE - deletes a table
 
+-
 
 ## 3. ActiveRecord
-http://guides.rubyonrails.org/active_record_basics.html
+[http://guides.rubyonrails.org/active_record_basics.html](http://guides.rubyonrails.org/active_record_basics.html)
 
 ### what can do
 
@@ -127,8 +131,8 @@ ActiveRecord::Base.establish_connection(
 ```
 
 more details:
-http://apidock.com/rails/ActiveRecord/Base/establish_connection/class
-http://apidock.com/rails/ActiveRecord/Base/connection/class
+[http://apidock.com/rails/ActiveRecord/Base/establish_connection/class](http://apidock.com/rails/ActiveRecord/Base/establish_connection/class)
+[http://apidock.com/rails/ActiveRecord/Base/connection/class](http://apidock.com/rails/ActiveRecord/Base/connection/class)
 
 
 > #### You can get database object with ```#connection```
@@ -164,12 +168,12 @@ for example:
 
 
 more details:
-http://api.rubyonrails.org/classes/ActiveRecord/Base.html
+[http://api.rubyonrails.org/classes/ActiveRecord/Base.html](http://api.rubyonrails.org/classes/ActiveRecord/Base.html)
 
-
+-
 
 ## 4. Rake (Ruby Make)
-http://rake.rubyforge.org/
+[http://rake.rubyforge.org/](http://rake.rubyforge.org/)
 
 ### what can do
 
@@ -238,9 +242,10 @@ require 'active_record'
 require 'sinatra/activerecord/rake'
 ```
 
+-
 
 ## 5. rack
-https://rack.github.io/
+[https://rack.github.io/](https://rack.github.io/)
 
 ### what can do
 
@@ -280,10 +285,10 @@ run HelloWorld.new
 
 #### 6.ctrl-C to finish rack
 
-
+-
 
 ## 6. shotgun
-https://rubygems.org/gems/shotgun/versions/0.9.2
+[https://rubygems.org/gems/shotgun/versions/0.9.2](https://rubygems.org/gems/shotgun/versions/0.9.2)
 
 ### what can do
 
@@ -322,8 +327,10 @@ run HelloWorld.new
 
 #### 6.ctrl-C to finish shotgun
 
+-
+
 ## 7. Sinatra
-http://www.sinatrarb.com/intro.html
+[http://www.sinatrarb.com/intro.html](http://www.sinatrarb.com/intro.html)
 
 ### what can do
 
