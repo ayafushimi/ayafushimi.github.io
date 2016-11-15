@@ -230,6 +230,7 @@ rake db:version             # Retrieves the current schema version number
 We can use these command by wrinting below codes.
 
 in Gemfile:
+
 ```
 source "https://rubygems.org"
 
@@ -239,6 +240,7 @@ gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 ```
 
 in Rakefile:
+
 ```
 require 'active_record'
 require 'sinatra/activerecord/rake'
