@@ -216,24 +216,16 @@ ActiveRecord has defined some rake tasks such as:
 
 ```
 rake db:create              # Creates the database from DATABASE_URL or con...
-
 rake db:create_migration    # Create a migration (parameters: NAME, VERSION)
-
 rake db:drop                # Drops the database from DATABASE_URL or confi...
-
 rake db:migrate             # Migrate the database (options: VERSION=x, VER...
-
 rake db:migrate:status      # Display status of migrations
-
 rake db:rollback            # Rolls the schema back to the previous version...
-
 rake db:seed                # Loads the seed data from db/seeds.rb
-
 rake db:version             # Retrieves the current schema version number
-
 ```
 
-#### how to use
+### how to use
 
 We can use these command by wrinting below codes.
 
@@ -376,7 +368,7 @@ end
 
 To see the app in the browser, usually run sinatra with rack or shotgun.
 
-#### how to use
+### how to use
 
 in app.rb file:
 
