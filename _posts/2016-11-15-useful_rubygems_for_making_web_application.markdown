@@ -13,25 +13,25 @@ date:   2016-11-15 15:25:36 -0500
 6. shotgun
 7. Sinatra
 
-
+-
 ## 1. Bundler
 [http://bundler.io/](http://bundler.io/)
 
-### what can do
+## what can do
 
 installs many ruby gems with one command
 
-### how to use
+## how to use
 
-#### 1. install
+### 1. install
 
 in Terminal: ```gem install bundler```
 
-#### 2. create Gemfile
+### 2. create Gemfile
 
 in Terminal: ```bundle init```
 
-#### 3. add gems you need to Gemfile
+### 3. add gems you need to Gemfile
 
 in ```Gemfile```, for example:
 
@@ -48,26 +48,26 @@ gem 'sqlite3'
 
 ```
 
-#### 4.run  ```bundle install```
+### 4.run  ```bundle install```
 
 -
 
 ## 2. sqlite3
 [https://rubygems.org/gems/sqlite3/versions/1.3.11](https://rubygems.org/gems/sqlite3/versions/1.3.11)
 
-### what can do
+## what can do
 
 lets us use SQLite3 via ruby
 
-### how to use
+## how to use
 
-#### 1. install
+### 1. install
 
 in Terminal: ```gem install sqlite3```
 
 or add ```gem 'sqlite3’``` to Gemfile
 
-#### 2. open a database
+### 2. open a database
 
 ```
 require 'sqlite3'
@@ -75,7 +75,7 @@ require 'sqlite3'
 db = SQLite3::Database.new "test.db”
 ```
 
-#### 3. use SQL statements with ```#execute``` method
+### 3. use SQL statements with ```#execute``` method
 
 ```
 require 'sqlite3'
@@ -107,19 +107,19 @@ db.execute(sql)
 ## 3. ActiveRecord
 [http://guides.rubyonrails.org/active_record_basics.html](http://guides.rubyonrails.org/active_record_basics.html)
 
-### what can do
+## what can do
 
 makes dealing with database easier
 
-### how to use
+## how to use
 
-#### 1. install
+### 1. install
 
 in Terminal: ```gem install activerecord ```
 
 or add ```gem ‘activerecord’``` to Gemfile
 
-#### 2. connect to SQLite database
+### 2. connect to SQLite database
 
 ```
 require 'active_record'
@@ -135,7 +135,7 @@ more details:
 [http://apidock.com/rails/ActiveRecord/Base/connection/class](http://apidock.com/rails/ActiveRecord/Base/connection/class)
 
 
-> #### You can get database object with ```#connection```
+> ### You can get database object with ```#connection```
 > for example:
 >
 > ```
@@ -144,7 +144,7 @@ db.execute(sql)
 ```
 > 
 
-#### 3. create a Class inherits from ```ActiveRecord::Base```
+### 3. create a Class inherits from ```ActiveRecord::Base```
 
 ```
 class Member < ActiveRecord::Base
@@ -152,7 +152,7 @@ end
 ```
 
 
-#### 4. use method defined in ```ActiveRecord::Base```
+### 4. use method defined in ```ActiveRecord::Base```
 
 
 for example:
@@ -171,23 +171,22 @@ more details:
 [http://api.rubyonrails.org/classes/ActiveRecord/Base.html](http://api.rubyonrails.org/classes/ActiveRecord/Base.html)
 
 -
-
 ## 4. Rake (Ruby Make)
 [http://rake.rubyforge.org/](http://rake.rubyforge.org/)
 
-### what can do
+## what can do
 
 automates programing jobs such as migration
 
-### how to use
+## how to use
 
-#### 1. install
+### 1. install
 
 in Terminal: ```gem install rake```
 
 or add ```gem ‘rake’``` to Gemfile
 
-#### 2. make ```Rakefile```
+### 2. make ```Rakefile```
 
 create ```Rakefile``` and write code for tasks which you want to automate in it
 
@@ -201,7 +200,7 @@ task :test do
 end
 ```
 
-#### 3. run ```rake``` or ’taskname’
+### 3. run ```rake``` or ’taskname’
 
 for example,
 
@@ -210,20 +209,29 @@ to run ‘default’ task: ```rake```
 to run ‘test’ task: ```test```
 
 
-#### + Rake with ActiveRecord
+### + Rake with ActiveRecord
 ActiveRecord has defined some rake tasks such as:
+
 ```
 rake db:create              # Creates the database from DATABASE_URL or con...
+
 rake db:create_migration    # Create a migration (parameters: NAME, VERSION)
+
 rake db:drop                # Drops the database from DATABASE_URL or confi...
+
 rake db:migrate             # Migrate the database (options: VERSION=x, VER...
+
 rake db:migrate:status      # Display status of migrations
+
 rake db:rollback            # Rolls the schema back to the previous version...
+
 rake db:seed                # Loads the seed data from db/seeds.rb
+
 rake db:version             # Retrieves the current schema version number
+
 ```
 
-##### how to use
+#### how to use
 
 We can use these command by wrinting below codes.
 
@@ -243,25 +251,24 @@ require 'sinatra/activerecord/rake'
 ```
 
 -
-
 ## 5. rack
 [https://rack.github.io/](https://rack.github.io/)
 
-### what can do
+## what can do
 
 provides webserver interface that can read Ruby
 
 ### how to use
 
-#### 1. install
+### 1. install
 
 in Terminal: ```gem install rack```
 
 or add ```gem ‘rack’``` to Gemfile
 
-#### 2. make ```config.ru```
+### 2. make ```config.ru```
 
-#### 3. create new class that responds to ```#call```method
+### 3. create new class that responds to ```#call```method
 
 for example:
 
@@ -279,31 +286,30 @@ end
 run HelloWorld.new
 ```
 
-#### 4. run ```rackup config.ru```
+### 4. run ```rackup config.ru```
 
-#### 5. open the URL displayed in prompt in a browser
+### 5. open the URL displayed in prompt in a browser
 
-#### 6.ctrl-C to finish rack
+### 6.ctrl-C to finish rack
 
 -
-
 ## 6. shotgun
 [https://rubygems.org/gems/shotgun/versions/0.9.2](https://rubygems.org/gems/shotgun/versions/0.9.2)
 
-### what can do
+## what can do
 
 improving rack, reloads updated file without restarting command
 
-### how to use
+## how to use
 
-#### 1. install
+### 1. install
 in Terminal: ```gem install shotgun```
 
 or add ```gem ‘shotgun’``` to Gemfile
 
-#### 2. make ```config.ru``` file like ```rack```
+### 2. make ```config.ru``` file like ```rack```
 
-#### 3. create new class that responds to ```#call```method  like ```rack```
+### 3. create new class that responds to ```#call```method  like ```rack```
 
 for example:
 
@@ -321,29 +327,29 @@ end
 run HelloWorld.new
 ```
 
-#### 4. run ```shotgun config.ru```
+### 4. run ```shotgun config.ru```
 
-#### 5. open the URL displayed in prompt in a browser
+### 5. open the URL displayed in prompt in a browser
 
-#### 6.ctrl-C to finish shotgun
+### 6.ctrl-C to finish shotgun
 
 -
-
 ## 7. Sinatra
 [http://www.sinatrarb.com/intro.html](http://www.sinatrarb.com/intro.html)
 
-### what can do
+## what can do
 
 makes creating web apps quicker
 
-### how to use
+## how to use
 
-#### 1. install
+### 1. install
+
 in Terminal: ```gem install sinatra```
 
 or add ```gem ‘sinatra’``` to Gemfile
 
-#### 2. create app file
+### 2. create app file
 
 for example:
 
@@ -357,14 +363,15 @@ get '/' do
 end
 ```
 
-#### 3. run ```ruby app.rb```
+### 3. run ```ruby app.rb```
 
-#### 4. Ctrl-C to stop sinatra
+### 4. Ctrl-C to stop sinatra
 
-#### + Sinatra with rack/shotgun
+### + Sinatra with rack/shotgun
+
 To see the app in the browser, usually run sinatra with rack or shotgun.
 
-##### how to use
+#### how to use
 
 in app.rb file:
 
