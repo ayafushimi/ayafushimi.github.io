@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Making MVC Sinatra Application"
-date:   2016-11-30 16:03:29 +0000
+date:   2016-11-30 11:03:29 -0500
 ---
 
 
@@ -22,12 +22,15 @@ To be specific:
 *  How to use Sinatra
 
 
+
 ## Goal of this project
 I'm going to make a MVC Application "To Visit List" which keeps countries/cities list you want to visit.
 
 To use this app, you need to sign up first. Then you can add countries/cities where you'd like to visit to your home page, view, edit and delete the list. Others cannot view your list.
 
+
 ## Making CLI Gem
+
 ### 1. Preparing for writing codes
 
 Before starting writing application codes, I make `Gemfile`, `Rakefile` and `config/environment.rb`.
