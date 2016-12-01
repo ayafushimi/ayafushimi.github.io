@@ -1123,28 +1123,36 @@ The `get "/countries/create"` route let logged-in user get `/countries/create.er
   end
 ```
 
-The `get "/countries/:id"` route let logged-in user get `/countries/show.erb`. To know which country to be showed in this page, this route uses `.find(id)` method with the id in the URL and assigns it to the instance variable `@country`.
+The `get "/countries/:id"` route let logged-in user get `/countries/show.erb`. To know which country to be showed in this page, this route uses `.find(id)` method with the id in the URL and assigns it to the instance variable `@country`. Also to prevent users from seeing other's page, only owner can access this page.
 
 ```
   get "/countries/:id" do
     if logged_in?
       @country = Country.find(params[:id])
-      erb :"/countries/show"
+      if @country.user == current_user
+        erb :"/countries/show"
+      else
+        redirect "/user"
+      end
     else
       redirect_to_login
     end
   end
 ```
 
-The `get "/countries/:id/edit"` route let logged-in user get `/countries/edit.erb`. This route defines 3 instance variables to know which country instance to edit and make the forms have default values, 
+The `get "/countries/:id/edit"` route let logged-in user get `/countries/edit.erb`. This route defines 3 instance variables to know which country instance to edit and make the forms have default values.
 
 ```
   get "/countries/:id/edit" do
     if logged_in?
       @country = Country.find(params[:id])
-      @country_name_input = @country.name
-      selected_ctler(REGIONS, @country.region)
-      erb :"/countries/edit"
+      if @country.user == current_user
+        @country_name_input = @country.name
+        selected_ctler(REGIONS, @country.region)
+        erb :"/countries/edit"
+      else
+        redirect "/user"
+      end
     else
       redirect_to_login
     end
@@ -1157,11 +1165,15 @@ The `get "/countries/:id/delete"` route delete the country instance with its cit
   get "/countries/:id/delete" do
     if logged_in?
       country=Country.find(params[:id])
-      country.cities.each do |city|
-        city.delete
+      if country.user == current_user
+        country.cities.each do |city|
+          city.delete
+        end
+        country.delete
+        redirect "/countries"
+      else
+        redirect "/user"
       end
-      country.delete
-      redirect "/countries"
     else
       redirect_to_login
     end
@@ -1320,13 +1332,17 @@ The `get "/cities/create"` route let logged-in user get `/cities/create.erb`. Be
   end
 ```
 
-The `get "/cities/:id"` route let logged-in user get `/cities/show.erb`. To know which country to be showed in this page, this route uses `.find(id)` method with the id in the URL and assigns it to the instance variable `@city`.
+The `get "/cities/:id"` route let logged-in user get `/cities/show.erb`. To know which country to be showed in this page, this route uses `.find(id)` method with the id in the URL and assigns it to the instance variable `@city`. Also to prevent users from seeing other's page, only owner can access this page.
 
 ```
   get "/cities/:id" do
     if logged_in?
       @city = City.find(params[:id])
-      erb :"/cities/show"
+      if @city.country.user == current_user
+        erb :"/cities/show"
+      else
+        redirect "/user"
+      end
     else
       redirect_to_login
     end
@@ -1339,14 +1355,18 @@ The `get "/cities/:id/edit"` route let logged-in user get `/cities/edit.erb`. Th
   get "/cities/:id/edit" do
     if logged_in?
       @city = City.find(params[:id])
-      @name_input = @city.name
-      selected_ctler(RANKS, @city.rank.to_s)
-      country_ids = []
-      current_user.countries.each {|x| country_ids << x.id}
-      selected_ctler(country_ids, @city.country.id)
-      @country_name_disabled = "disabled"
-      @country_region_disabled = "disabled"
-      erb :"/cities/edit"
+      if @city.country.user == current_user
+        @name_input = @city.name
+        selected_ctler(RANKS, @city.rank.to_s)
+        country_ids = []
+        current_user.countries.each {|x| country_ids << x.id}
+        selected_ctler(country_ids, @city.country.id)
+        @country_name_disabled = "disabled"
+        @country_region_disabled = "disabled"
+        erb :"/cities/edit"
+      else
+        redirect "/user"
+      end
     else
       redirect_to_login
     end
@@ -1358,8 +1378,13 @@ The `get "/cities/:id/delete"` route delete the city instance and redirect the u
 ```
   get "/cities/:id/delete" do
     if logged_in?
-      City.find(params[:id]).delete
-      redirect "/cities"
+      city = City.find(params[:id])
+      if city.country.user == current_user
+        city.delete
+        redirect "/cities"
+      else
+        redirect "/user"
+      end
     else
       redirect_to_login
     end
