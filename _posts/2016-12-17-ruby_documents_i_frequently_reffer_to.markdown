@@ -51,6 +51,7 @@ Modules
 ### ActiveRecord [(DOC)](http://api.rubyonrails.org/classes/ActiveRecord.html)
 
 Active Record Basics [(Rails Guide)](http://guides.rubyonrails.org/active_record_basics.html)
+
 * [Persistence](http://api.rubyonrails.org/classes/ActiveRecord/Persistence.html)
   * [save](http://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-save)
   * [update](http://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-update)
@@ -61,6 +62,7 @@ Active Record Basics [(Rails Guide)](http://guides.rubyonrails.org/active_record
 
 
 Active Record Migrations [(Rails Guide)](http://guides.rubyonrails.org/active_record_migrations.html)
+
 * [Migration](http://api.rubyonrails.org/classes/ActiveRecord/Migration.html)
 * [ConnectionAdapters](http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters.html)
   * [SchemaStatements](http://api.rubyonrails.org/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html)
@@ -74,14 +76,17 @@ Active Record Migrations [(Rails Guide)](http://guides.rubyonrails.org/active_re
   
 
 Active Record Validations [(Rails Guide)](http://guides.rubyonrails.org/active_record_validations.html)
+
 * [Validations](http://api.rubyonrails.org/classes/ActiveRecord/Validations.html)
 
 
 Active Record Callbacks [(Rails Guide)](http://guides.rubyonrails.org/active_record_callbacks.html)
+
 * [Callbacks](http://api.rubyonrails.org/classes/ActiveRecord/Callbacks.html)
 
 
 Active Record Associations [(Rails Guide)](http://guides.rubyonrails.org/association_basics.html)
+
 * [Associations](http://api.rubyonrails.org/classes/ActiveRecord/Associations.html)
   * [ClassMethods](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html)
     * [belongs_to](http://api.rubyonrails.org/classes/ActiveRecord/Associations/ClassMethods.html#method-i-belongs_to)
@@ -90,10 +95,12 @@ Active Record Associations [(Rails Guide)](http://guides.rubyonrails.org/associa
 
 
 Active Record Query Interface [(Rails Guide)](http://guides.rubyonrails.org/active_record_querying.html)
+
 * [QueryMethods](http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html)
 
 
 Modules
+
 * [Enum](http://api.rubyonrails.org/classes/ActiveRecord/Enum.html)
 * [NestedAttributes](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes.html)
   * [ClassMethods](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html)
@@ -105,6 +112,7 @@ Modules
 ### ActiveModel [(DOC)](http://api.rubyonrails.org/classes/ActiveModel.html)
 
 Active Model Basics [(Rails Guide)](http://guides.rubyonrails.org/active_model_basics.html)
+
 * [SecurePassword](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword.html)
   * [ClassMethods](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html)
     * [has_secure_password](http://api.rubyonrails.org/classes/ActiveModel/SecurePassword/ClassMethods.html#method-i-has_secure_password)
@@ -126,6 +134,7 @@ Active Model Basics [(Rails Guide)](http://guides.rubyonrails.org/active_model_b
 ### ActionView [(DOC)](http://api.rubyonrails.org/classes/ActionView.html)
 
 Action View Overview [(Rails Guide)](http://guides.rubyonrails.org/action_view_overview.html)
+
 * [Helpers](http://api.rubyonrails.org/classes/ActionView/Helpers.html)
   * [TagHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/TagHelper.html)
     * [content_tag](http://api.rubyonrails.org/classes/ActionView/Helpers/TagHelper.html#method-i-content_tag)
@@ -144,6 +153,7 @@ Layouts and Rendering in Rails [(Rails Guide)](http://guides.rubyonrails.org/lay
 
 
 Form Helpers [(Rails Guide)](http://guides.rubyonrails.org/form_helpers.html)
+
 * [Helpers](http://api.rubyonrails.org/classes/ActionView/Helpers.html)
   * [FormHelper](http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html)
     * [form_for](http://api.rubyonrails.org/classes/ActionView/Helpers/FormHelper.html#method-i-form_for)
@@ -165,6 +175,7 @@ Form Helpers [(Rails Guide)](http://guides.rubyonrails.org/form_helpers.html)
 ### ActionController [(DOC)](http://api.rubyonrails.org/classes/ActionController.html)
 
 Action Controller Overview [(Rails Guide)](http://guides.rubyonrails.org/action_controller_overview.html)
+
 * [Parameters](http://api.rubyonrails.org/classes/ActionController/Parameters.html)
   * [require](http://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-require)
   * [permit](http://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-permit)
@@ -178,6 +189,7 @@ Rails Routing from the Outside In [(Rails Guide)](http://guides.rubyonrails.org/
 ### ActiveSupport [(DOC)](http://api.rubyonrails.org/classes/ActiveSupport.html)
 
 Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/active_support_core_extensions.html)
+
 * [Object](http://api.rubyonrails.org/classes/Object.html)
   * [try](http://api.rubyonrails.org/classes/Object.html#method-i-try)
 * [Module](http://api.rubyonrails.org/classes/Module.html)
