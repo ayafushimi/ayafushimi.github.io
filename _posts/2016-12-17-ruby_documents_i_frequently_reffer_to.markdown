@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby Documents I frequently reffer to"
-date:   2016-12-17 01:22:50 +0000
+date:   2016-12-16 20:22:50 -0500
 ---
 
 
@@ -36,15 +36,18 @@ Classes
     * [TrueClass](https://ruby-doc.org/core-2.3.1/TrueClass.html)
 
 Modules
+
 * [Comparable](https://ruby-doc.org/core-2.3.1/Comparable.html)
 *  [Enumerable](https://ruby-doc.org/core-2.3.1/Enumerable.html)
 *  [Kernel](https://ruby-doc.org/core-2.3.1/Kernel.html)
 *  [Math](https://ruby-doc.org/core-2.3.1/Math.html)
 
 --
+
 ## Rails Documents
 
 -
+
 ### ActiveRecord [(DOC)](http://api.rubyonrails.org/classes/ActiveRecord.html)
 
 Active Record Basics [(Rails Guide)](http://guides.rubyonrails.org/active_record_basics.html)
@@ -98,6 +101,7 @@ Modules
 
 
 -
+
 ### ActiveModel [(DOC)](http://api.rubyonrails.org/classes/ActiveModel.html)
 
 Active Model Basics [(Rails Guide)](http://guides.rubyonrails.org/active_model_basics.html)
@@ -118,6 +122,7 @@ Active Model Basics [(Rails Guide)](http://guides.rubyonrails.org/active_model_b
 
 
 -
+
 ### ActionView [(DOC)](http://api.rubyonrails.org/classes/ActionView.html)
 
 Action View Overview [(Rails Guide)](http://guides.rubyonrails.org/action_view_overview.html)
@@ -156,6 +161,7 @@ Form Helpers [(Rails Guide)](http://guides.rubyonrails.org/form_helpers.html)
 
 
 -
+
 ### ActionController [(DOC)](http://api.rubyonrails.org/classes/ActionController.html)
 
 Action Controller Overview [(Rails Guide)](http://guides.rubyonrails.org/action_controller_overview.html)
@@ -168,6 +174,7 @@ Rails Routing from the Outside In [(Rails Guide)](http://guides.rubyonrails.org/
 
 
 -
+
 ### ActiveSupport [(DOC)](http://api.rubyonrails.org/classes/ActiveSupport.html)
 
 Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/active_support_core_extensions.html)
@@ -177,6 +184,7 @@ Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/act
   * [delegate](http://api.rubyonrails.org/classes/Module.html#method-i-delegate)
 
 -
+
 ### ActionDispatch [(DOC)](http://api.rubyonrails.org/classes/ActionDispatch.html)
 
 * [Flash](http://api.rubyonrails.org/classes/ActionDispatch/Flash.html)
@@ -189,29 +197,36 @@ Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/act
 
 
 -
+
 ### Others
 
 * [Rails Generators](http://api.rubyonrails.org/classes/Rails/Generators.html)
 
 
 --
+
 ## Gems
 
 -
+
 ###  Multi-Provider Authentication
 
 [OmniAuth](https://github.com/omniauth/omniauth)
+
 * List of Strategies (https://github.com/omniauth/omniauth/wiki/List-of-Strategies)
 * [OmniAuth Facebook](https://github.com/mkdynamic/omniauth-facebook)
 * [omniauth-google](https://github.com/Yesware/omniauth-google)
 
 -
+
 ### Tools around Authentication
 
 [devise](https://github.com/plataformatec/devise)
+
 * Instructions (http://devise.plataformatec.com.br/)
 
 -
+
 ### Tools around Authorization
 
 [CanCanCan](https://github.com/CanCanCommunity/cancancan)
