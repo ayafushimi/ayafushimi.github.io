@@ -42,11 +42,9 @@ Modules
 *  [Kernel](https://ruby-doc.org/core-2.3.1/Kernel.html)
 *  [Math](https://ruby-doc.org/core-2.3.1/Math.html)
 
---
 
 ## Rails Documents
 
--
 
 ### ActiveRecord [(DOC)](http://api.rubyonrails.org/classes/ActiveRecord.html)
 
@@ -107,7 +105,6 @@ Modules
     * [accepts_nested_attributes_for](http://api.rubyonrails.org/classes/ActiveRecord/NestedAttributes/ClassMethods.html#method-i-accepts_nested_attributes_for)
 
 
--
 
 ### ActiveModel [(DOC)](http://api.rubyonrails.org/classes/ActiveModel.html)
 
@@ -128,8 +125,6 @@ Active Model Basics [(Rails Guide)](http://guides.rubyonrails.org/active_model_b
 * [Errors](http://api.rubyonrails.org/classes/ActiveModel/Errors.html)
   * [full_messages](http://api.rubyonrails.org/classes/ActiveModel/Errors.html#method-i-full_messages)
 
-
--
 
 ### ActionView [(DOC)](http://api.rubyonrails.org/classes/ActionView.html)
 
@@ -170,7 +165,6 @@ Form Helpers [(Rails Guide)](http://guides.rubyonrails.org/form_helpers.html)
     * [options_for_select](http://api.rubyonrails.org/classes/ActionView/Helpers/FormOptionsHelper.html#method-i-options_for_select)
 
 
--
 
 ### ActionController [(DOC)](http://api.rubyonrails.org/classes/ActionController.html)
 
@@ -184,7 +178,6 @@ Action Controller Overview [(Rails Guide)](http://guides.rubyonrails.org/action_
 Rails Routing from the Outside In [(Rails Guide)](http://guides.rubyonrails.org/routing.html)
 
 
--
 
 ### ActiveSupport [(DOC)](http://api.rubyonrails.org/classes/ActiveSupport.html)
 
@@ -195,7 +188,6 @@ Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/act
 * [Module](http://api.rubyonrails.org/classes/Module.html)
   * [delegate](http://api.rubyonrails.org/classes/Module.html#method-i-delegate)
 
--
 
 ### ActionDispatch [(DOC)](http://api.rubyonrails.org/classes/ActionDispatch.html)
 
@@ -208,24 +200,21 @@ Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/act
     * [flash](http://api.rubyonrails.org/classes/ActionDispatch/Flash/RequestMethods.html#method-i-flash)
 
 
--
 
 ### Others
 
 * [Rails Generators](http://api.rubyonrails.org/classes/Rails/Generators.html)
 
 
---
 
 ## Gems
 
--
 
 ###  Multi-Provider Authentication
 
 [OmniAuth](https://github.com/omniauth/omniauth)
 
-* List of Strategies (https://github.com/omniauth/omniauth/wiki/List-of-Strategies)
+* [List of Strategies](https://github.com/omniauth/omniauth/wiki/List-of-Strategies)
 * [OmniAuth Facebook](https://github.com/mkdynamic/omniauth-facebook)
 * [omniauth-google](https://github.com/Yesware/omniauth-google)
 
@@ -235,7 +224,7 @@ Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/act
 
 [devise](https://github.com/plataformatec/devise)
 
-* Instructions (http://devise.plataformatec.com.br/)
+* [Instructions](http://devise.plataformatec.com.br/)
 
 -
 
