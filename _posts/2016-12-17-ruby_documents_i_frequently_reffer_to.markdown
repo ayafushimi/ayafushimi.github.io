@@ -12,6 +12,14 @@ Classes
 * [BasicObject](https://ruby-doc.org/core-2.3.1/BasicObject.html)
   * [Object](https://ruby-doc.org/core-2.3.1/Object.html)
     * [Array](https://ruby-doc.org/core-2.3.1/Array.html)
+      * [compact](https://ruby-doc.org/core-2.3.1/Array.html#method-i-compact)
+      * [concat](https://ruby-doc.org/core-2.3.1/Array.html#method-i-concat)
+      * [empty?](https://ruby-doc.org/core-2.3.1/Array.html#method-i-empty-3F)
+      * [flatten](https://ruby-doc.org/core-2.3.1/Array.html#method-i-flatten)
+      * [include?](https://ruby-doc.org/core-2.3.1/Array.html#method-i-include-3F)
+      * [join](https://ruby-doc.org/core-2.3.1/Array.html#method-i-join)
+      * [select](https://ruby-doc.org/core-2.3.1/Array.html#method-i-select)
+      * [uniq](https://ruby-doc.org/core-2.3.1/Array.html#method-i-uniq)
     * [Dir](https://ruby-doc.org/core-2.3.1/Dir.html)
     * [ENV](https://ruby-doc.org/core-2.3.1/ENV.html)
     * [FalseClass](https://ruby-doc.org/core-2.3.1/FalseClass.html)
@@ -50,6 +58,7 @@ Modules
 
 Active Record Basics [(Rails Guide)](http://guides.rubyonrails.org/active_record_basics.html)
 
+
 * [Persistence](http://api.rubyonrails.org/classes/ActiveRecord/Persistence.html)
   * [save](http://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-save)
   * [update](http://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-update)
@@ -57,6 +66,9 @@ Active Record Basics [(Rails Guide)](http://guides.rubyonrails.org/active_record
   * [ClassMethods](http://api.rubyonrails.org/classes/ActiveRecord/Persistence/ClassMethods.html)
     * [instantiate](http://api.rubyonrails.org/classes/ActiveRecord/Persistence/ClassMethods.html#method-i-instantiate)
     * [create](http://api.rubyonrails.org/classes/ActiveRecord/Persistence/ClassMethods.html#method-i-create)
+* [Relation](http://api.rubyonrails.org/classes/ActiveRecord/Relation.html)
+  * [find_or_create_by](http://api.rubyonrails.org/classes/ActiveRecord/Relation.html#method-i-find_or_create_by)
+  * [find_or_initialize_by](http://api.rubyonrails.org/classes/ActiveRecord/Relation.html#method-i-find_or_initialize_by)
 
 
 Active Record Migrations [(Rails Guide)](http://guides.rubyonrails.org/active_record_migrations.html)
@@ -169,6 +181,10 @@ Form Helpers [(Rails Guide)](http://guides.rubyonrails.org/form_helpers.html)
 ### ActionController [(DOC)](http://api.rubyonrails.org/classes/ActionController.html)
 
 Action Controller Overview [(Rails Guide)](http://guides.rubyonrails.org/action_controller_overview.html)
+
+
+* [Redirecting](http://api.rubyonrails.org/classes/ActionController/Redirecting.html)
+  * [redirect_to](http://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_to)
 
 * [Parameters](http://api.rubyonrails.org/classes/ActionController/Parameters.html)
   * [require](http://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-require)
