@@ -207,9 +207,6 @@ Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/act
 
 ### ActionDispatch [(DOC)](http://api.rubyonrails.org/classes/ActionDispatch.html)
 
-* [Session](http://api.rubyonrails.org/classes/ActionDispatch/Session.html)
-  * [CookieStore](http://api.rubyonrails.org/classes/ActionDispatch/Session/CookieStore.html)
-
 * [Flash](http://api.rubyonrails.org/classes/ActionDispatch/Flash.html)
   * [FlashHash](http://api.rubyonrails.org/classes/ActionDispatch/Flash/FlashHash.html)
     * [alert](http://api.rubyonrails.org/classes/ActionDispatch/Flash/FlashHash.html#method-i-alert)
