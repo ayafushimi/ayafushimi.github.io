@@ -58,7 +58,9 @@ Modules
 
 Active Record Basics [(Rails Guide)](http://guides.rubyonrails.org/active_record_basics.html)
 
-
+* [FinderMethods](http://api.rubyonrails.org/classes/ActiveRecord/FinderMethods.html)
+  * [find](http://api.rubyonrails.org/classes/ActiveRecord/FinderMethods.html#method-i-find)
+  * [find_by](http://api.rubyonrails.org/classes/ActiveRecord/FinderMethods.html#method-i-find_by)
 * [Persistence](http://api.rubyonrails.org/classes/ActiveRecord/Persistence.html)
   * [save](http://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-save)
   * [update](http://api.rubyonrails.org/classes/ActiveRecord/Persistence.html#method-i-update)
