@@ -35,6 +35,7 @@ Classes
         * [Fixnum](https://ruby-doc.org/core-2.3.1/Fixnum.html)
         * [Float](https://ruby-doc.org/core-2.3.1/Float.html)
         * [Rational](https://ruby-doc.org/core-2.3.1/Rational.html)
+    * [Proc](https://ruby-doc.org/core-2.3.1/Proc.html)
     * [Random](https://ruby-doc.org/core-2.3.1/Random.html)
     * [Range](https://ruby-doc.org/core-2.3.1/Range.html)
     * [Regexp](https://ruby-doc.org/core-2.3.1/Regexp.html)
@@ -195,12 +196,6 @@ Action Controller Overview [(Rails Guide)](http://guides.rubyonrails.org/action_
 
 Rails Routing from the Outside In [(Rails Guide)](http://guides.rubyonrails.org/routing.html)
 
-
-### AbstractController [(DOC)](http://api.rubyonrails.org/classes/AbstractController.html)
-
-* [Callbacks](http://api.rubyonrails.org/classes/AbstractController/Callbacks.html)
-  * [ClassMethods](http://api.rubyonrails.org/classes/AbstractController/Callbacks/ClassMethods.html)
-    * [before_action](http://api.rubyonrails.org/classes/AbstractController/Callbacks/ClassMethods.html#method-i-before_action)
 
 
 ### ActiveSupport [(DOC)](http://api.rubyonrails.org/classes/ActiveSupport.html)
