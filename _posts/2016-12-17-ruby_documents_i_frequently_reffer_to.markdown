@@ -20,10 +20,6 @@ Classes
       * [join](https://ruby-doc.org/core-2.3.1/Array.html#method-i-join)
       * [select](https://ruby-doc.org/core-2.3.1/Array.html#method-i-select)
       * [uniq](https://ruby-doc.org/core-2.3.1/Array.html#method-i-uniq)
-    * [Binding](https://ruby-doc.org/core-2.3.1/Binding.html)
-      * [eval](https://ruby-doc.org/core-2.3.1/Binding.html#method-i-eval)
-    * [Class](https://ruby-doc.org/core-2.3.1/Class.html)
-      * [superclass](https://ruby-doc.org/core-2.3.1/Class.html#method-i-superclass)
     * [Dir](https://ruby-doc.org/core-2.3.1/Dir.html)
     * [ENV](https://ruby-doc.org/core-2.3.1/ENV.html)
     * [FalseClass](https://ruby-doc.org/core-2.3.1/FalseClass.html)
@@ -191,6 +187,7 @@ Action Controller Overview [(Rails Guide)](http://guides.rubyonrails.org/action_
 
 * [Redirecting](http://api.rubyonrails.org/classes/ActionController/Redirecting.html)
   * [redirect_to](http://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_to)
+  * [redirect_back](http://api.rubyonrails.org/classes/ActionController/Redirecting.html#method-i-redirect_back)
 
 * [Parameters](http://api.rubyonrails.org/classes/ActionController/Parameters.html)
   * [require](http://api.rubyonrails.org/classes/ActionController/Parameters.html#method-i-require)
@@ -212,6 +209,11 @@ Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/act
 
 
 ### ActionDispatch [(DOC)](http://api.rubyonrails.org/classes/ActionDispatch.html)
+
+* [Request](http://api.rubyonrails.org/classes/ActionDispatch/Request.html)
+  * [fullpath](http://api.rubyonrails.org/classes/ActionDispatch/Request.html#method-i-fullpath)
+  * [original_fullpath](http://api.rubyonrails.org/classes/ActionDispatch/Request.html#method-i-original_fullpath)
+  * [original_url](http://api.rubyonrails.org/classes/ActionDispatch/Request.html#method-i-original_url)
 
 * [Flash](http://api.rubyonrails.org/classes/ActionDispatch/Flash.html)
   * [FlashHash](http://api.rubyonrails.org/classes/ActionDispatch/Flash/FlashHash.html)
