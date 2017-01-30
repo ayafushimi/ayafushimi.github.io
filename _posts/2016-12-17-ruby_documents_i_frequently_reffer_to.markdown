@@ -20,6 +20,10 @@ Classes
       * [join](https://ruby-doc.org/core-2.3.1/Array.html#method-i-join)
       * [select](https://ruby-doc.org/core-2.3.1/Array.html#method-i-select)
       * [uniq](https://ruby-doc.org/core-2.3.1/Array.html#method-i-uniq)
+    * [Binding](https://ruby-doc.org/core-2.3.1/Binding.html)
+      * [eval](https://ruby-doc.org/core-2.3.1/Binding.html#method-i-eval)
+    * [Class](https://ruby-doc.org/core-2.3.1/Class.html)
+      * [superclass](https://ruby-doc.org/core-2.3.1/Class.html#method-i-superclass)
     * [Dir](https://ruby-doc.org/core-2.3.1/Dir.html)
     * [ENV](https://ruby-doc.org/core-2.3.1/ENV.html)
     * [FalseClass](https://ruby-doc.org/core-2.3.1/FalseClass.html)
@@ -35,6 +39,7 @@ Classes
         * [Fixnum](https://ruby-doc.org/core-2.3.1/Fixnum.html)
         * [Float](https://ruby-doc.org/core-2.3.1/Float.html)
         * [Rational](https://ruby-doc.org/core-2.3.1/Rational.html)
+    * [Proc](https://ruby-doc.org/core-2.3.1/Proc.html)
     * [Random](https://ruby-doc.org/core-2.3.1/Random.html)
     * [Range](https://ruby-doc.org/core-2.3.1/Range.html)
     * [Regexp](https://ruby-doc.org/core-2.3.1/Regexp.html)
@@ -196,7 +201,11 @@ Action Controller Overview [(Rails Guide)](http://guides.rubyonrails.org/action_
 
 Rails Routing from the Outside In [(Rails Guide)](http://guides.rubyonrails.org/routing.html)
 
+### AbstractController [(DOC)](http://api.rubyonrails.org/classes/AbstractController.html)
 
+* [Callbacks](http://api.rubyonrails.org/classes/AbstractController/Callbacks.html)
+  * [ClassMethods](http://api.rubyonrails.org/classes/AbstractController/Callbacks/ClassMethods.html)
+    * [before_action](http://api.rubyonrails.org/classes/AbstractController/Callbacks/ClassMethods.html#method-i-before_action)
 
 ### ActiveSupport [(DOC)](http://api.rubyonrails.org/classes/ActiveSupport.html)
 
@@ -210,6 +219,8 @@ Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/act
 
 ### ActionDispatch [(DOC)](http://api.rubyonrails.org/classes/ActionDispatch.html)
 
+* [Session](http://api.rubyonrails.org/classes/ActionDispatch/Session.html)
+  * [CookieStore](http://api.rubyonrails.org/classes/ActionDispatch/Session/CookieStore.html)
 * [Request](http://api.rubyonrails.org/classes/ActionDispatch/Request.html)
   * [fullpath](http://api.rubyonrails.org/classes/ActionDispatch/Request.html#method-i-fullpath)
   * [original_fullpath](http://api.rubyonrails.org/classes/ActionDispatch/Request.html#method-i-original_fullpath)
