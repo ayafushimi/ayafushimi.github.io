@@ -196,6 +196,12 @@ Action Controller Overview [(Rails Guide)](http://guides.rubyonrails.org/action_
 Rails Routing from the Outside In [(Rails Guide)](http://guides.rubyonrails.org/routing.html)
 
 
+### AbstractController [(DOC)](http://api.rubyonrails.org/classes/AbstractController.html)
+
+* [Callbacks](http://api.rubyonrails.org/classes/AbstractController/Callbacks.html)
+  * [ClassMethods](http://api.rubyonrails.org/classes/AbstractController/Callbacks/ClassMethods.html)
+    * [before_action](http://api.rubyonrails.org/classes/AbstractController/Callbacks/ClassMethods.html#method-i-before_action)
+
 
 ### ActiveSupport [(DOC)](http://api.rubyonrails.org/classes/ActiveSupport.html)
 
