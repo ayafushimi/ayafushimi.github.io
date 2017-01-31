@@ -114,6 +114,7 @@ Active Record Associations [(Rails Guide)](http://guides.rubyonrails.org/associa
 Active Record Query Interface [(Rails Guide)](http://guides.rubyonrails.org/active_record_querying.html)
 
 * [QueryMethods](http://api.rubyonrails.org/classes/ActiveRecord/QueryMethods.html)
+* [SpawnMethods](http://api.rubyonrails.org/classes/ActiveRecord/SpawnMethods.html)
 
 
 Modules
