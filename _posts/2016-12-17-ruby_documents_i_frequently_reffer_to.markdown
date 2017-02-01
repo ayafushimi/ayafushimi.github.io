@@ -252,7 +252,7 @@ Active Support Core Extensions [(Rails Guide)](http://guides.rubyonrails.org/act
 
 * [List of Strategies](https://github.com/omniauth/omniauth/wiki/List-of-Strategies)
 * [OmniAuth Facebook](https://github.com/mkdynamic/omniauth-facebook)
-* [omniauth-google](https://github.com/Yesware/omniauth-google)
+* [omniauth-google-oauth2](https://github.com/zquestz/omniauth-google-oauth2)
 
 -
 
